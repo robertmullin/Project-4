@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    
+    <title>Gallery</title>
+    
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+</head>
+<body>
+  <header>
+      <input id="search" type="search" name="user_search" value="" placeholder="Search" />
+  </header>
+   <div class="container table">
+    <div id="gallery" class="clearfix">
+      <ul class="gallerylist">
+         
+          <li>
+             <a href="img/01.jpg"><img src="img/thumbnails/01.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+              <p class="caption">I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>
+             </a>
+          </li>
+          
+          <li>
+            <a href="img/02.jpg"><img src="img/thumbnails/02.jpg" title="Lake" alt="Lake">
+              <p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="img/03.jpg"><img src="img/thumbnails/03.jpg" title="Canyon" alt="Canyon">
+              <p>I hiked to the top of the mountain and got this picture of the canyon and trees below.</p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="img/04.jpg"><img src="img/thumbnails/04.jpg" title="Iceberg" alt="Iceberg">
+              <p>It was amazing to see an iceberg up close, it was so cold but didn't snow today.</p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="img/05.jpg"><img src="img/thumbnails/05.jpg" title="Desert" alt="Desert">
+              <p>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="img/06.jpg"><img src="img/thumbnails/06.jpg" title="Fall" alt="Fall">
+              <p>Fall is coming, I love when the leaves on the trees start to change color.</p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="img/07.jpg"><img src="img/thumbnails/07.jpg" title="Plantation" alt="Plantation">
+              <p>I drove past this plantation yesterday, everything is so green!</p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="img/08.jpg"><img src="img/thumbnails/08.jpg" title="Dunes" alt="Dunes">
+              <p>My summer vacation to the Oregon Coast. I love the sandy dunes!</p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="img/09.jpg"><img src="img/thumbnails/09.jpg" title="Countryside Lane" alt="Countryside Lane">
+              <p>We enjoyed a quiet stroll down this countryside lane.</p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="img/10.jpg"><img src="img/thumbnails/10.jpg" title="Sunset" alt="Sunset">
+              <p>Sunset at the coast! The sky turned a lovely shade of orange.</p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="img/11.jpg"><img src="img/thumbnails/11.jpg" title="Cave" alt="Cave">
+              <p>I did a tour of a cave today and the view of the landscape below was breathtaking.</p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="img/12.jpg"><img src="img/thumbnails/12.jpg" title="Bluebells" alt="Bluebells">
+              <p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p>
+            </a>
+          </li>
+          
+      </ul>
+    </div><!-- end #lightgallery -->
+</div><!-- end .container -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.js"></script>
+    <script src="js/script.js"></script> 
+    <script>
+        var gallery = $('#gallery a').simpleLightbox();
+    </script>
+ 
+</body>
+</html>
